@@ -4,9 +4,9 @@ int main()
 {
     char a[100];
     int i,c=0;
-   gets(a);
+    gets(a);
     int l=strlen(a);
-    for(i=0;i<=l;i++)
+    for(i=0;i<l;i++)
     {
         if(a[i]==' '|| a[i]=='\\')
           c++;
